@@ -1,0 +1,35 @@
+html, body {
+    box-sizing: border-box;
+
+    height: 100%;
+
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.login{
+	float: left;
+	width: 40%;
+	margin-top: 10%;
+}
+
+.signup{
+	float: right;
+	width: 40%;
+	margin-top: 10%;
+}
+
+body.homepage{
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.note{
+	border-radius: 5px;
+	margin-top: 30px;
+}
